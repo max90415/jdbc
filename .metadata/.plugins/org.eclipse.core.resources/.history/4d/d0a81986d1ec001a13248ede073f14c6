@@ -1,0 +1,10 @@
+package orm;
+
+public class Emddd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

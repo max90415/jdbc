@@ -1,0 +1,28 @@
+package metedata;
+
+import java.sql.*;
+
+public class Matadata {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+try (Connection connection = DriverManager.getConnection("jdbc:oracle:thin:@//localhost:1521/xepdb1", "scott",
+		"tiger");) {
+
+	DatabaseMetaData dbmd = connection.getMetaData();
+	System.out.println(dbmd.getDatabaseProductName());
+	System.out.println(dbmd.getDatabaseProductVersion());
+	System.out.println(dbmd.getDriverName());
+	System.out.println(dbmd.getDriverVersion());
+	
+	
+} catch (SQLException e) {
+	e.printStackTrace();
+}
+
+
+		
+		
+	}
+
+}

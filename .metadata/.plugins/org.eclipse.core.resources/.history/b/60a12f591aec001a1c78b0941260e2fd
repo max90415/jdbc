@@ -1,0 +1,35 @@
+package blob;
+
+import java.sql.*;
+
+public class BlobReader {
+
+	public static void main(String[] args) {
+		
+		try (Connection connection = DriverManager.getConnection("jdbc:oracle:thin:@//localhost:1521/xepdb1", "scott",
+				"tiger");) {
+
+			
+			Statement stmt = connection.createStatement();
+			ResultSet rs = stmt.executeQuery("select * from files");
+			while ( rs.next()) {
+				
+				String filename = rs.getString("filename");
+				Input
+				
+				
+				
+			}
+			
+			
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+
+
+	}
+
+}
+
+

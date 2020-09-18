@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="lib">
+    <archive path="/Users/vincent/Documents/Teaching/JDBC/source/JDBCSampleOracle/lib/ojdbc8.jar" />
+    <archive path="/Users/vincent/Documents/Teaching/JDBC/source/JDBCSampleOracle/lib/commons-io-2.5.jar" />
+    <archive path="/Users/vincent/Documents/Teaching/JDBC/source/JDBCSampleOracle/lib/commons-csv-1.2.jar" />
+    <archive path="/Users/vincent/Documents/Teaching/JDBC/source/JDBCSampleOracle/lib/commons-dbcp2-2.1.1.jar" />
+    <archive path="/Users/vincent/Documents/Teaching/JDBC/source/JDBCSampleOracle/lib/commons-dbutils-1.5.jar" />
+    <archive path="/Users/vincent/Documents/Teaching/JDBC/source/JDBCSampleOracle/lib/commons-logging-1.2.jar" />
+    <archive path="/Users/vincent/Documents/Teaching/JDBC/source/JDBCSampleOracle/lib/commons-pool2-2.4.2.jar" />
+  </library>
+</eclipse-userlibraries>
+
